@@ -1,23 +1,36 @@
-Here's a summary of the project:
+of your project:
 
-**1. Project Name:** Web Harvester
-**2. Short Description:** A GUI-based web crawler application that harvests data from websites according to specified parameters.
-**3. Overall Description:** The Web Harvester is an interactive tool designed for users to extract website content, navigate hyperlinks, and collect specific data based on user-defined criteria, such as domain URL, depth of crawling, and filters. It utilizes a separate thread to manage the crawling process, ensuring smooth interaction with the GUI. This project showcases my ability to combine web development, multithreading, and GUI design to create an efficient and user-friendly application.
-**4. Main Purpose:** I built this to provide users with an easy-to-use interface for collecting website data while maintaining control over the crawl parameters and output results.
-**5. Key Technologies:**
-	* Python
-	* Qt Designer (for GUI creation)
-	* Multithreading (using QThread and signals/slots)
-**6. Unique Features:**
-	- A user-friendly GUI with intuitive input fields for domain URL, depth, filters, and output file name.
-	- Real-time console output displaying crawling progress, warnings, or errors.
-**7. Future Improvements:**
-	+ Implementing a more sophisticated filtering system that allows users to specify advanced filtering rules.
-	+ Enhancing the application's multithreading capabilities for improved performance and parallelization of crawls.
-**8. Personal Notes:** While this project focused on creating an efficient web harvester, I'm excited about exploring ways to improve its stability and scalability in the face of complex website structures or high-traffic domains.
-**9. GitHub Tags:** `web-crawler`, `gui-application`, `multithreading`, `python-project`, `qt-designer`, `data-harvesting`
+1. **Project Name:** Web Harvester
+2. **Short Description:** A web crawler project using Python to harvest web content.
+3. **Overall Description:** The Web Harvester project aims to develop a web crawling tool that can efficiently retrieve and process web pages. It utilizes various technologies such as PyQt5, BeautifulSoup, and Requests to accomplish this task. The project also includes a feature to display Python files in the current directory and its subdirectories. 
+4. **Main Purpose:** The primary purpose of this project is to develop an efficient web crawling tool that can be used for various purposes such as data collection, website monitoring, or search engine optimization.
+5. **Key Technologies:**
+   - PyQt5
+   - BeautifulSoup
+   - Requests
+   - CSV
+   - Markdownify
+6. **Unique Features:**
+   - The ability to display Python files in the current directory and its subdirectories
+7. **Future Improvements:**
+   - Improving the crawling speed by utilizing multi-threading or multiprocessing techniques
+   - Implementing a more efficient data storage mechanism using databases like SQLite or MongoDB
+8. **Personal Notes:** This project is still under development, and there are several improvements that can be made to enhance its functionality.
+9. **GitHub Tags:** web-crawler, python-web-harvester, PyQt5-app, beautifulsoup4, requests-library, markdownify-tool
+10. **Installable Modules:** sys, markdownify, requests, PyQt5, get_pages, utils, web_crawler, bs4, csv, os, urllib
+11. **Suggested Folder Names:** data_storage, crawling_results, project_resources
+12. **Root Project Folder Name Suggestions:** WebHarvesterProject, PyWebCrawler, WebsiteScrapingTool
 
-# Extractable Variables
-SHORT_DESCRIPTION = "A GUI-based web crawler application that harvests data from websites according to specified parameters. 3. Overall Description: The Web Harvester is an interactive tool designed for users to extract website content, navigate hyperlinks, and collect specific data based on user-defined criteria, such as domain URL, depth of crawling, and filters. It utilizes a separate thread to manage the crawling process, ensuring smooth interaction with the GUI. This project showcases my ability to combine web development, multithreading, and GUI design to create an efficient and user-friendly application. 4. Main Purpose: I built this to provide users with an easy-to-use interface for collecting website data while maintaining control over the crawl parameters and output results. 5. Key Technologies: Python Qt Designer (for GUI creation) Multithreading (using QThread and signals/slots) 6. Unique Features: - A user-friendly GUI with intuitive input fields for domain URL, depth, filters, and output file name. - Real-time console output displaying crawling progress, warnings, or errors. 7. Future Improvements: + Implementing a more sophisticated filtering system that allows users to specify advanced filtering rules. + Enhancing the application's multithreading capabilities for improved performance and parallelization of crawls. 8. Personal Notes: While this project focused on creating an efficient web harvester, I'm excited about exploring ways to improve its stability and scalability in the face of complex website structures or high-traffic domains. 9. GitHub Tags: `web-crawler`, `gui-application`, `multithreading`, `python-project`, `qt-designer`, `data-harvesting`"
-OVERALL_DESCRIPTION = "The Web Harvester is an interactive tool designed for users to extract website content, navigate hyperlinks, and collect specific data based on user-defined criteria, such as domain URL, depth of crawling, and filters. It utilizes a separate thread to manage the crawling process, ensuring smooth interaction with the GUI. This project showcases my ability to combine web development, multithreading, and GUI design to create an efficient and user-friendly application. 4. Main Purpose: I built this to provide users with an easy-to-use interface for collecting website data while maintaining control over the crawl parameters and output results. 5. Key Technologies: Python Qt Designer (for GUI creation) Multithreading (using QThread and signals/slots) 6. Unique Features: - A user-friendly GUI with intuitive input fields for domain URL, depth, filters, and output file name. - Real-time console output displaying crawling progress, warnings, or errors. 7. Future Improvements: + Implementing a more sophisticated filtering system that allows users to specify advanced filtering rules. + Enhancing the application's multithreading capabilities for improved performance and parallelization of crawls. 8. Personal Notes: While this project focused on creating an efficient web harvester, I'm excited about exploring ways to improve its stability and scalability in the face of complex website structures or high-traffic domains. 9. GitHub Tags: `web-crawler`, `gui-application`, `multithreading`, `python-project`, `qt-designer`, `data-harvesting`"
-GITHUB_TAGS = "`web-crawler`, `gui-application`, `multithreading`, `python-project`, `qt-designer`, `data-harvesting`"
+# Extracted Variables:
+PROJECT_NAME = "Web Harvester"
+SHORT_DESCRIPTION = "A web crawler project using Python to harvest web content."
+OVERALL_DESCRIPTION = "The Web Harvester project aims to develop a web crawling tool that can efficiently retrieve and process web pages. It utilizes various technologies such as PyQt5, BeautifulSoup, and Requests to accomplish this task. The project also includes a feature to display Python files in the current directory and its subdirectories."
+MAIN_PURPOSE = "The primary purpose of this project is to develop an efficient web crawling tool that can be used for various purposes such as data collection, website monitoring, or search engine optimization."
+KEY_TECHNOLOGIES = "PyQt5, BeautifulSoup, Requests, CSV, Markdownify"
+UNIQUE_FEATURES = "The ability to display Python files in the current directory and its subdirectories"
+FUTURE_IMPROVEMENTS = "Improving the crawling speed by utilizing multi, threading or multiprocessing techniques, Implementing a more efficient data storage mechanism using databases like SQLite or MongoDB"
+PERSONAL_NOTES = "This project is still under development, and there are several improvements that can be made to enhance its functionality."
+GITHUB_TAGS = "web, crawler, python, web, harvester, PyQt5, app, beautifulsoup4, requests, library, markdownify, tool"
+INSTALLABLE_MODULES = "requests, markdownify, PyQt5, get_pages, utils, web_crawler, bs4"
+SUGGESTED_FOLDER_NAMES = "data_storage, crawling_results, project_resources"
+ROOT_PROJECT_FOLDER_NAME_SUGGESTIONS = "WebHarvesterProject, PyWebCrawler, WebsiteScrapingTool"
